@@ -69,11 +69,11 @@ app.use("/Upload", express.static("Upload"));
 
 
 // rest api
-app.get('/', (req,resp) => {
-    resp.send({
-        message : "welcome to app",
-    });
-});
+// app.get('/', (req,resp) => {
+//     resp.send({
+//         message : "welcome to app",
+//     });
+// });
 
 
 app.post("/register", async (req, resp) => {
