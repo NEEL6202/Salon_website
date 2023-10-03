@@ -22,7 +22,7 @@ import crypto from "crypto";
 import { fileURLToPath } from "url";
 
 import stripe from "stripe";("sk_test_51N1nURSJ0heUjZB8De7lFuFEA303FF1viJuVdRuWas55BBjY3U3evQUtsXTaiGO4TPrnk5Zq6dZXeeoEyEiGP0nQ009F8Nne9L")
-import uuid from 'uuid';
+import {v4 as uuidv4} from 'uuid';
 
 import multer from 'multer';
 import parse from 'path';
