@@ -57,9 +57,9 @@ app.use(morgan("dev"));
 
 app.use(express.static(path.join(__dirname, "./salon_client/build")));
 
-app.use("*", function (req, resp) {
-  resp.sendFile(path.join(__dirname, "./salon_client/build/index.html"));
-});
+//app.use("*", function (req, resp) {
+  //resp.sendFile(path.join(__dirname, "./salon_client/build/index.html"));
+//});
 // app.use('/Upload',express.static("./Upload"));
 app.use("/Upload", express.static("Upload"));
 
